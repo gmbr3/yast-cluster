@@ -260,7 +260,7 @@ Tue Sep  9 02:39:15 UTC 2014 - nwang@suse.com
 Wed Sep  3 02:45:51 UTC 2014 - nwang@suse.com
 
 - BNC#787196. Change wrong unit names like mb to Mb, ghz to GHz.
-- Version 3.1.13 
+- Version 3.1.13
 
 -------------------------------------------------------------------
 Tue Jul 15 10:17:03 UTC 2014 - nwang@suse.com
@@ -311,15 +311,15 @@ Thu May 29 08:57:49 UTC 2014 - nwang@suse.com
 -------------------------------------------------------------------
 Thu May 29 05:31:12 UTC 2014 - nwang@suse.com
 
-- BNC#880242. expected votes must have value when Transport 
-  protocol is using udp. Cluster name should not empty in 
+- BNC#880242. expected votes must have value when Transport
+  protocol is using udp. Cluster name should not empty in
   any cases.
 - Version 3.1.6
 
 -------------------------------------------------------------------
 Thu May 22 09:45:56 UTC 2014 - nwang@suse.com
 
-- Modify SPEC file to make ibs and github same. Version 3.1.5 
+- Modify SPEC file to make ibs and github same. Version 3.1.5
 
 -------------------------------------------------------------------
 Wed May 21 06:49:25 UTC 2014 - nwang@suse.com
@@ -330,21 +330,21 @@ Wed May 21 06:49:25 UTC 2014 - nwang@suse.com
 -------------------------------------------------------------------
 Wed Apr 23 07:41:49 UTC 2014 - nwang@suse.com
 
-- BNC#874710, Only active or passive of rrp_mode is valid 
+- BNC#874710, Only active or passive of rrp_mode is valid
   for multiple interface.
 
 -------------------------------------------------------------------
 Tue Apr 22 08:13:18 UTC 2014 - nwang@suse.com
 
 - BNC#874563,stop pacemaker could stop corosync at the same time.
-  So change behavior to stop pacemaker directly. 
+  So change behavior to stop pacemaker directly.
 
 -------------------------------------------------------------------
 Tue Apr 22 03:13:23 UTC 2014 - nwang@suse.com
 
-- BNC#871970.BNC#872000 could be fixed at the same time. 
-  Change udpu member addresses structure and the format of 
-  nodelist in "corosync.conf". 
+- BNC#871970.BNC#872000 could be fixed at the same time.
+  Change udpu member addresses structure and the format of
+  nodelist in "corosync.conf".
 
 -------------------------------------------------------------------
 Mon Mar 10 10:12:18 UTC 2014 - dmzhang@suse.com
@@ -355,7 +355,7 @@ Mon Mar 10 10:12:18 UTC 2014 - dmzhang@suse.com
 Thu Feb 27 09:26:09 UTC 2014 - dmzhang@suse.com
 
 - upstream does not maintain yast2-python-bindings any more
-  remove the dependency for yast2-yast2-bindings 
+  remove the dependency for yast2-yast2-bindings
 
 -------------------------------------------------------------------
 Tue Feb 25 10:46:43 UTC 2014 - dmzhang@suse.com
@@ -365,18 +365,18 @@ Tue Feb 25 10:46:43 UTC 2014 - dmzhang@suse.com
 -------------------------------------------------------------------
 Tue Feb 25 02:51:18 UTC 2014 - dmzhang@suse.com
 
-- bnc#863953,  yast2 display issue 
+- bnc#863953,  yast2 display issue
   add cluster.fwd, and fix disply issue
 
 -------------------------------------------------------------------
 Mon Jan 20 05:01:39 UTC 2014 - dmzhang@suse.com
 
-- add expected_votes field in GUI 
+- add expected_votes field in GUI
 
 -------------------------------------------------------------------
 Mon Jan 13 07:12:03 UTC 2014 - dmzhang@suse.com
 
-- edit yast2-cluster to adapt new corosync.conf  
+- edit yast2-cluster to adapt new corosync.conf
   fix bnc#854882,bnc#845910
 - remove SummaryDialog, OverviewDialog and aisexec options
 - convert ycp to ruby
@@ -385,7 +385,7 @@ Mon Jan 13 07:12:03 UTC 2014 - dmzhang@suse.com
 Wed Jan 13 18:56:03 CET 2010 - kmachalkova@suse.cz
 
 - Adjusted .desktop file(s) to wrap /sbin/yast2/ calls in xdg-su
-  where root privileges are needed, removed X-KDE-SubstituteUID key 
+  where root privileges are needed, removed X-KDE-SubstituteUID key
   (bnc#540627)
 
 -------------------------------------------------------------------
